@@ -1,0 +1,7 @@
+services:
+  yuru7-build-env:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./data:/data
